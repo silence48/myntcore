@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+var myntcore = require('myntcore-node/lib/cli/myntcore');
+var path = require('path');
+var servicesPath = path.resolve(__dirname, '../');
+var additionalServices = ['insight-api-mynt', 'insight-ui-mynt'];
+myntcore(servicesPath, additionalServices);

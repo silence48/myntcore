@@ -1,0 +1,48 @@
+{
+  "name": "myntcore",
+  "version": "1.0.3",
+  "description": "A platform to build myntcoin and blockchain-based applications.",
+  "author": "Silence48",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/** --recursive"
+  },
+  "bin": {
+    "myntcore": "./bin/myntcore",
+    "myntcored": "./bin/myntcored"
+  },
+  "keywords": [
+    "myntcoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silence48/myntcore.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "myntcore-lib": "silence48/myntcore-lib",
+    "myntcore-node": "silence48/myntcore-node",
+    "insight-api-mynt": "silence48/insight-api-mynt",
+    "insight-ui-mynt": "silence48/insight-ui-mynt"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}

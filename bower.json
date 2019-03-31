@@ -1,0 +1,30 @@
+{
+  "name": "myntcore",
+  "main": "./myntcore.min.js",
+  "version": "1.0.1",
+  "homepage": "https://github.com/silence48",
+  "authors": [
+    "Under"
+  ],
+  "description": "A pure, powerful core for your bitcoin project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "myntcoin",
+    "myntcore",
+    "btc",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
