@@ -1,6 +1,6 @@
 {
   "name": "myntcore",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "A platform to build myntcoin and blockchain-based applications.",
   "author": "Silence48",
   "main": "index.js",
@@ -35,10 +35,10 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "myntcore-lib": "silence48/myntcore-lib",
-    "myntcore-node": "silence48/myntcore-node",
-    "insight-api-mynt": "silence48/insight-api-mynt",
-    "insight-ui-mynt": "silence48/insight-ui-mynt"
+    "myntcore-lib": "^1.0.0",
+    "myntcore-node": "^1.0.0",
+    "insight-api-mynt": "^1.0.0",
+    "insight-ui-mynt": "^1.0.0"
   },
   "license": "MIT",
   "devDependencies": {
