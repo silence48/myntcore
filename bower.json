@@ -1,7 +1,7 @@
 {
   "name": "myntcore",
   "main": "./myntcore.min.js",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/silence48",
   "authors": [
     "Under"
